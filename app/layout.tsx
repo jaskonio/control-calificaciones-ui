@@ -21,12 +21,6 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="es">
         <body className={outfit.className}>
-          <SignedOut>
-           <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
           <NextTopLoader color="#000"/>
           {children}
         </body>
