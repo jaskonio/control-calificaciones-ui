@@ -1,5 +1,5 @@
-import LogoDashboard from "../LogoDashboard/LogoDashboard";
-import SidebarRoutes from "../SidebarRoutes/SidebarRoutes";
+import { LogoDashboard } from "../LogoDashboard";
+import { SidebarRoutes } from "../SidebarRoutes";
 
 export function Sidebar() {
   return (

@@ -1,6 +1,7 @@
-import React from 'react'
+import { Separator } from "@/components/ui/separator";
 
-export default function SidebarRoutes() {
+
+export function SidebarRoutes() {
   return (
     <div>SidebarRoutes</div>
   )
