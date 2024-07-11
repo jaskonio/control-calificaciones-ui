@@ -1,9 +1,14 @@
-import { Car } from "lucide-react";
+import { Car, GraduationCap, icons, Layout } from "lucide-react";
 
 export const dataGeneralSidebar = [
     {
-        icon: Car,
+        icon: Layout,
         label: "Cars",
         href: "/dashboard"
+    },
+    {
+        icon: GraduationCap,
+        label: "Estudiantes",
+        href: "/student"
     }
 ]
